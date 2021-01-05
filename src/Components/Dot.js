@@ -5,17 +5,14 @@ const Circle = styled.div`
   height: 25px;
   width: 25px;
   border-radius: 50%;
-  background-color: red;
+  background-color: ${props => props.color};
   margin: auto;
 `
 
-class Dot extends Component {
-    
-    render() { 
-        return (  
-            <Circle></Circle>
-        );
-    }
+const Dot = (props) => {
+    return (  
+        <Circle color={props.color}></Circle>
+    );
 }
  
 export default Dot;
