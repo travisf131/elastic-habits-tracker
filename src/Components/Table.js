@@ -11,7 +11,7 @@ class Table extends Component {
             <table>
                 <tr>
                     <th></th>
-                    <th><button>Physical</button></th>
+                    <th><button>Exercise</button></th>
                     <th><button>Reading</button></th>
                     <th><button>Coding</button></th>
                 </tr>
