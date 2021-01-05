@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+  margin: auto;
+  table-layout: fixed;
+  position: relative;
+  right: 22px;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  width: 100px;
+}
+
+th {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+h3 {
+  padding-right: 5px;
+  margin: 8px;
+}
