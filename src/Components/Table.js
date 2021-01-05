@@ -6,7 +6,7 @@ import Dot from './Dot'
 class Table extends Component {
     
     state = {
-        showDot = false
+        showDot: false
     }
 
     showDot = () => {
@@ -19,8 +19,11 @@ class Table extends Component {
     
 
     render() { 
+
+        
         return ( 
             <div> 
+            <h1>{indicator}</h1>
             <table>
                 <tr>
                     <th></th>
