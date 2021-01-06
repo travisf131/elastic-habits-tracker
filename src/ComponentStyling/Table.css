@@ -9,7 +9,7 @@ table {
 td {
   border: 1px solid #999;
   padding: 0.5rem;
-  width: 100px;
+  width: 150px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
@@ -21,4 +21,13 @@ th {
 h3 {
   padding-right: 5px;
   margin: 8px;
+}
+
+input {
+  margin: auto;
+  position: relative;
+}
+
+#habitButtons {
+  display: inline-block;
 }
