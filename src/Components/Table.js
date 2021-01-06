@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../ComponentStyling/Table.css'
 import Dot from './Dot'
+import HabitButton from './HabitButton';
 
 
 class Table extends Component {
@@ -42,15 +43,16 @@ class Table extends Component {
 
     render() { 
 
+
         return ( 
             <div> 
             <h1></h1>
             <table>
                 <tr>
                     <th></th>
-                    <th><button>Exercise</button></th>
-                    <th><button>Reading</button></th>
-                    <th><button>Coding</button></th>
+                    <th><HabitButton></HabitButton></th>
+                    <th><HabitButton></HabitButton></th>
+                    <th><HabitButton></HabitButton></th>
                 </tr>
                 <tr>
                     <h3>1</h3>
@@ -107,40 +109,40 @@ class Table extends Component {
                     <td onClick={() => this.showDot(27)}><Dot color={this.state.showDots[26].color}></Dot></td>
                 </tr>
                 <tr>
-                    <h3>20</h3>
-                    <td  onClick={() => this.showDot(28)}><Dot color={this.state.showDots[27].color}></Dot></td>
-                    <td  onClick={() => this.showDot(29)}><Dot color={this.state.showDots[28].color}></Dot></td>
-                    <td  onClick={() => this.showDot(30)}><Dot color={this.state.showDots[29].color}></Dot></td>
+                    <h3>10</h3>
+                    <td onClick={() => this.showDot(28)}><Dot color={this.state.showDots[27].color}></Dot></td>
+                    <td onClick={() => this.showDot(29)}><Dot color={this.state.showDots[28].color}></Dot></td>
+                    <td onClick={() => this.showDot(30)}><Dot color={this.state.showDots[29].color}></Dot></td>
                 </tr>
                 <tr>
-                    <h3>33</h3>
-                    <td  onClick={() => this.showDot(31)}><Dot color={this.state.showDots[30].color}></Dot></td>
-                    <td  onClick={() => this.showDot(32)}><Dot color={this.state.showDots[31].color}></Dot></td>
-                    <td  onClick={() => this.showDot(33)}><Dot color={this.state.showDots[32].color}></Dot></td>
+                    <h3>11</h3>
+                    <td onClick={() => this.showDot(31)}><Dot color={this.state.showDots[30].color}></Dot></td>
+                    <td onClick={() => this.showDot(32)}><Dot color={this.state.showDots[31].color}></Dot></td>
+                    <td onClick={() => this.showDot(33)}><Dot color={this.state.showDots[32].color}></Dot></td>
                 </tr>
                 <tr>
-                    <h3>32</h3>
-                    <td  onClick={() => this.showDot(34)}><Dot color={this.state.showDots[33].color}></Dot></td>
-                    <td  onClick={() => this.showDot(35)}><Dot color={this.state.showDots[34].color}></Dot></td>
-                    <td  onClick={() => this.showDot(36)}><Dot color={this.state.showDots[35].color}></Dot></td>
+                    <h3>12</h3>
+                    <td onClick={() => this.showDot(34)}><Dot color={this.state.showDots[33].color}></Dot></td>
+                    <td onClick={() => this.showDot(35)}><Dot color={this.state.showDots[34].color}></Dot></td>
+                    <td onClick={() => this.showDot(36)}><Dot color={this.state.showDots[35].color}></Dot></td>
                 </tr>
                 <tr>
-                    <h3>33</h3>
-                    <td  onClick={() => this.showDot(37)}><Dot color={this.state.showDots[36].color}></Dot></td>
-                    <td  onClick={() => this.showDot(38)}><Dot color={this.state.showDots[37].color}></Dot></td>
-                    <td  onClick={() => this.showDot(39)}><Dot color={this.state.showDots[38].color}></Dot></td>
+                    <h3>13</h3>
+                    <td onClick={() => this.showDot(37)}><Dot color={this.state.showDots[36].color}></Dot></td>
+                    <td onClick={() => this.showDot(38)}><Dot color={this.state.showDots[37].color}></Dot></td>
+                    <td onClick={() => this.showDot(39)}><Dot color={this.state.showDots[38].color}></Dot></td>
                 </tr>
                 <tr>
-                    <h3>44</h3>
-                    <td  onClick={() => this.showDot(40)}><Dot color={this.state.showDots[39].color}></Dot></td>
-                    <td  onClick={() => this.showDot(41)}><Dot color={this.state.showDots[40].color}></Dot></td>
-                    <td  onClick={() => this.showDot(42)}><Dot color={this.state.showDots[41].color}></Dot></td>
+                    <h3>14</h3>
+                    <td onClick={() => this.showDot(40)}><Dot color={this.state.showDots[39].color}></Dot></td>
+                    <td onClick={() => this.showDot(41)}><Dot color={this.state.showDots[40].color}></Dot></td>
+                    <td onClick={() => this.showDot(42)}><Dot color={this.state.showDots[41].color}></Dot></td>
                 </tr>
                 <tr>
-                    <h3>45</h3>
-                    <td  onClick={() => this.showDot(43)}><Dot color={this.state.showDots[42].color}></Dot></td>
-                    <td  onClick={() => this.showDot(44)}><Dot color={this.state.showDots[43].color}></Dot></td>
-                    <td  onClick={() => this.showDot(45)}><Dot color={this.state.showDots[44].color}></Dot></td>
+                    <h3>15</h3>
+                    <td onClick={() => this.showDot(43)}><Dot color={this.state.showDots[42].color}></Dot></td>
+                    <td onClick={() => this.showDot(44)}><Dot color={this.state.showDots[43].color}></Dot></td>
+                    <td onClick={() => this.showDot(45)}><Dot color={this.state.showDots[44].color}></Dot></td>
                 </tr>
             </table>
             </div>
