@@ -22,12 +22,3 @@ h3 {
   padding-right: 5px;
   margin: 8px;
 }
-
-input {
-  margin: auto;
-  position: relative;
-}
-
-#habitButtons {
-  display: inline-block;
-}

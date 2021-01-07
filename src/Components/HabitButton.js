@@ -32,8 +32,6 @@ class HabitButton extends Component {
         buttonValue: "+"
     }
 
-    
-
     toggleHabitInput = () => {
         let temp = this.state.renderHabitInput
         this.setState({
